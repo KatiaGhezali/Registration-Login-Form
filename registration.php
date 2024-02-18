@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -19,8 +20,10 @@
         <label class="registration-label">Confirm Password</label><br>
         <input type="password" class="registration-input" >
         <br><br>
-        <a href="login.php">Already have an account?</a>
-        <input type="submit" value="Register" class="registration-button">
+        
+        <input type="submit" value="Register" class="registration-button"> <br><br>
+        <p>Already have an account? <a href="login.php">Log in</a></p>
+       
 
 
     </form>
