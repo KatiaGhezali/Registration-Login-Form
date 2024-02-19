@@ -9,9 +9,9 @@
 <body>
     <form class="user-form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <h2 class="form-header">Register</h2>
-     <label class="form-label">Name</label><br>
-        <input type="text" class="form-input" placeholder="Enter your name"><br>
-        <label class="form-label">Surname</label><br>
+     <label class="form-label">Username</label><br>
+        <input type="text" class="form-input" ><br>
+        <label class="form-label">Email</label><br>
         <input type="text" class="form-input" ><br>
         <label class="form-label">Age</label><br>
         <input type="text" class="form-input" ><br>
