@@ -7,21 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <form class="registration-form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        <h2 class="registration-header">Register</h2>
-        <label class="registration-label">Name</label><br>
-        <input type="text" class="registration-input" ><br>
-        <label class="registration-label">Surname</label><br>
-        <input type="text" class="registration-input" ><br>
-        <label class="registration-label">Age</label><br>
-        <input type="text" class="registration-input" ><br>
-        <label class="registration-label">Password</label><br>
-        <input type="password" class="registration-input"><br>
-        <label class="registration-label">Confirm Password</label><br>
-        <input type="password" class="registration-input" >
+    <form class="user-form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        <h2 class="form-header">Register</h2>
+     <label class="form-label">Name</label><br>
+        <input type="text" class="form-input" placeholder="Enter your name"><br>
+        <label class="form-label">Surname</label><br>
+        <input type="text" class="form-input" ><br>
+        <label class="form-label">Age</label><br>
+        <input type="text" class="form-input" ><br>
+        <label class="form-label">Password</label><br>
+        <input type="password" class="form-input"><br>
+        <label class="form-label">Confirm Password</label><br>
+        <input type="password" class="form-input" >
         <br><br>
         
-        <input type="submit" value="Register" class="registration-button"> <br><br>
+        <input type="submit" value="Register" class="form-button"> <br><br>
         <p>Already have an account? <a href="login.php">Log in</a></p>
        
 
