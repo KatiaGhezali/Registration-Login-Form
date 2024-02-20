@@ -1,3 +1,13 @@
+<?php 
+     session_start();
+
+    
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +29,7 @@
         <br><br>
         
         <input type="submit" value="Login" class="form-button"> <br><br>
+        <p>You don't have an account? <a href="registration.php">Create One!</a></p>
        
        
 
@@ -26,3 +37,7 @@
     </form>
 </body>
 </html>
+
+
+<?php 
+?>

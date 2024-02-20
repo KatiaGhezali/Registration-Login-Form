@@ -22,7 +22,7 @@
         <br><br>
         
         <input type="submit" value="Register" class="form-button"> <br><br>
-        <p>Already have an account? <a href="login.php">Log in</a></p>
+        <p>Already have an account? <a href="index.php">Log in</a></p>
        
 
 
